@@ -9,7 +9,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@antv/g2": "^4.0.15",
+    "@types/echarts": "^4.9.0",
     "core-js": "^2.6.5",
+    "echarts": "^4.9.0",
+    "highcharts": "^8.2.2",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",

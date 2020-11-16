@@ -42,7 +42,7 @@ export default class Hmaptest extends Vue {
       enabled: false // 禁用版权信息
     },
     colorAxis: {
-      showInLegend: true,
+      showInLegend: false,
       min: 0,
       minColor: 'rgb(255,255,255)',
       maxColor: '#006cee'

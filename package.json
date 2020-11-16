@@ -9,12 +9,16 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "@antv/g2": "^4.0.15",
+    "@antv/data-set": "^0.11.7",
+    "@antv/g2": "^3.0.12",
+    "@types/d3-geo": "^2.0.0",
+    "@types/d3-sankey": "^0.11.1",
     "@types/echarts": "^4.9.0",
     "core-js": "^2.6.5",
     "echarts": "^4.9.0",
     "highcharts": "^8.2.2",
     "vue": "^2.6.10",
+    "vue-amap": "^0.5.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.3",

@@ -7,6 +7,7 @@
     </div>
     <div class="containerbottom">
       <maptest></maptest>
+      <heat></heat>
     </div>
   </div>
 </template>
@@ -17,13 +18,15 @@ import column from './highcharts/column.vue';
 import pie from './highcharts/pie.vue';
 import maptest from './highcharts/maptest.vue';
 import doublepie from './highcharts/doublePie.vue';
+import heat from './highcharts/heat.vue';
 @Component({
   components: {
     column,
     pie,
     doublepie,
     maptest,
-  },
+    heat
+  }
 })
 export default class Echarts extends Vue {
   private mounted() {}

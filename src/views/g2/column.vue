@@ -27,7 +27,7 @@ export default class G2Column extends Vue {
     });
 
     // Step 2: 载入数据源
-    chart.data(data);
+    chart.source(data);
 
     // Step 3：创建图形语法，绘制图形
     chart.interval().position('genre*sold');

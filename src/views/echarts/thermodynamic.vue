@@ -80,7 +80,7 @@ export default class EHeat extends Vue {
             show: false
           }
         },
-        layoutCenter: ['75%', '75%'],
+        layoutCenter: ['50%', '50%'],
         layoutSize: '100%',
         // itemStyle: {
         //   normal: {

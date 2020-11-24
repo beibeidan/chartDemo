@@ -5,9 +5,12 @@
       <pie></pie>
       <doublepie></doublepie>
     </div>
-    <div class="containerbottom">
+    <div class="containermiddle">
       <maptest></maptest>
       <heat></heat>
+    </div>
+    <div class="containerbottom">
+      <point></point>
     </div>
   </div>
 </template>
@@ -18,6 +21,7 @@ import pie from './echarts/pie.vue';
 import doublepie from './echarts/doublePie.vue';
 import maptest from './echarts/maptest.vue';
 import heat from './echarts/thermodynamic.vue';
+import point from './echarts/point.vue';
 import { Component, Vue } from 'vue-property-decorator';
 
 @Component({
@@ -26,7 +30,9 @@ import { Component, Vue } from 'vue-property-decorator';
     pie,
     doublepie,
     maptest,
-    heat
+    heat,
+    point,
+    chinapoint
   }
 })
 export default class Echarts extends Vue {
@@ -41,6 +47,9 @@ export default class Echarts extends Vue {
     display: flex;
   }
   .containerbottom {
+    display: flex;
+  }
+  .containermiddle{
     display: flex;
   }
 }
